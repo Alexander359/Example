@@ -168,28 +168,25 @@ namespace Collections
             int List_c = TestList.Count;
             int medium = List_c / 2;
 
-            // Первый способ удалить данные из середины. Но здесь используется значение данных для поиска.
-
-            Console.WriteLine("   Value of next node:     {0}", 6 );
-            // Второй способ по индексу
+            // по индексу
             var indnode = TestList.First;
+
             for (int i = 0; i < TestList.Count; i++)
             {
-                if (i == medium)
+                if (indnode != null)
                 {
-                    var indexNode = indnode.Next;
-                    TestList.Remove(indexNode.Value);
+                    if (i == medium)
+                    {
+                        TestList.Remove(indnode.Value);
+
+                    }
+                    indnode = indnode.Next;
                 }
-            }
-            Console.WriteLine("После удаления элемента. Второй способ" + medium);
 
-            foreach (var item in TestList)
-            {
-                Console.WriteLine(item);
             }
-            Console.WriteLine(Environment.NewLine);
 
-            Console.WriteLine("После удаления элемента" + medium);
+
+            Console.WriteLine("После удаления элемента");
 
             foreach (var item in TestList)
             {
