@@ -1,0 +1,13 @@
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.csprojAssemblyReference.cache
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.AssemblyInfoInputs.cache
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.AssemblyInfo.cs
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.csproj.CoreCompileInputs.cache
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.exe
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.deps.json
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.runtimeconfig.json
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.runtimeconfig.dev.json
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.dll
+D:\C#\Project\HW2\UserCollections\UserCollections\bin\Debug\netcoreapp3.1\UserCollections.pdb
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.dll
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.pdb
+D:\C#\Project\HW2\UserCollections\UserCollections\obj\Debug\netcoreapp3.1\UserCollections.genruntimeconfig.cache
