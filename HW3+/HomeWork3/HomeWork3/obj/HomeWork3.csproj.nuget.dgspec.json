@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\C#\\Project\\HW1\\Collections\\Collections\\Collections.csproj": {}
+    "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {}
   },
   "projects": {
-    "d:\\C#\\Project\\HW1\\Collections\\Collections\\Collections.csproj": {
+    "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\C#\\Project\\HW1\\Collections\\Collections\\Collections.csproj",
-        "projectName": "Collections",
-        "projectPath": "d:\\C#\\Project\\HW1\\Collections\\Collections\\Collections.csproj",
+        "projectUniqueName": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
+        "projectName": "HomeWork3",
+        "projectPath": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
         "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-        "outputPath": "d:\\C#\\Project\\HW1\\Collections\\Collections\\obj\\",
+        "outputPath": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",
