@@ -1,0 +1,13 @@
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.csprojAssemblyReference.cache
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.AssemblyInfoInputs.cache
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.AssemblyInfo.cs
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.csproj.CoreCompileInputs.cache
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.exe
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.deps.json
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.runtimeconfig.json
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.runtimeconfig.dev.json
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.dll
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\bin\Debug\netcoreapp3.1\HomeWork4.pdb
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.dll
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.pdb
+D:\C#\Project\HW3+\HomeWork3\HomeWork4\obj\Debug\netcoreapp3.1\HomeWork4.genruntimeconfig.cache
