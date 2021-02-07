@@ -1,0 +1,13 @@
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.exe
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.deps.json
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.runtimeconfig.json
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.runtimeconfig.dev.json
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.dll
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\bin\Debug\netcoreapp3.1\HomeWork4.3.pdb
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.csprojAssemblyReference.cache
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.AssemblyInfoInputs.cache
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.AssemblyInfo.cs
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.csproj.CoreCompileInputs.cache
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.dll
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.pdb
+D:\GitBush3\Example\HW3+\HomeWork3\HomeWork4.3\obj\Debug\netcoreapp3.1\HomeWork4.3.genruntimeconfig.cache

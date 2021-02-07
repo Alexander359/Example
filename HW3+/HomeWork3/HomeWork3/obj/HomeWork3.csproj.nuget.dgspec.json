@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {}
+    "d:\\GitBush3\\Example\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {
+    "d:\\GitBush3\\Example\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
+        "projectUniqueName": "d:\\GitBush3\\Example\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
         "projectName": "HomeWork3",
-        "projectPath": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
-        "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Project\\HW3+\\HomeWork3\\HomeWork3\\obj\\",
+        "projectPath": "d:\\GitBush3\\Example\\HW3+\\HomeWork3\\HomeWork3\\HomeWork3.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "d:\\GitBush3\\Example\\HW3+\\HomeWork3\\HomeWork3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

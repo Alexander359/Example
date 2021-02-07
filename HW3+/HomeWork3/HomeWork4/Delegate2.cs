@@ -4,16 +4,16 @@ namespace HomeWork4
 {
     class Delegate2
     {
-        delegate void DelegateN2();
+        delegate MyType DelegateN2();
 
         public static MyType D2(int x, int y)
         {
-            MyType item = new MyType();
-            item.a = x;
-            item.b = y;
-            Console.WriteLine(item.a + item.b);
+            MyType item2 = new MyType();
+            item2.a = x;
+            item2.b = y;
+            Console.WriteLine(item2.a + item2.b);
             
-            return item;
+            return item2;
 
         }
 
