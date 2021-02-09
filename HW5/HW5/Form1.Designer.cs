@@ -30,6 +30,9 @@ namespace HW5
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_dot = new System.Windows.Forms.Button();
@@ -53,9 +56,6 @@ namespace HW5
             this.btn8 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
             this.display = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,8 +89,41 @@ namespace HW5
             this.panel1.Controls.Add(this.display);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(336, 449);
+            this.panel1.Size = new System.Drawing.Size(336, 311);
             this.panel1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(170, 249);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "label5";
+            this.label5.Visible = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(171, 210);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "label4";
+            this.label4.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(170, 132);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // label2
             // 
@@ -134,6 +167,7 @@ namespace HW5
             this.button19.TabIndex = 19;
             this.button19.Text = "+ -";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // btn_Del
             // 
@@ -144,6 +178,7 @@ namespace HW5
             this.btn_Del.TabIndex = 18;
             this.btn_Del.Text = "<-";
             this.btn_Del.UseVisualStyleBackColor = true;
+            this.btn_Del.Click += new System.EventHandler(this.btn_Del_Click);
             // 
             // btn_C
             // 
@@ -339,49 +374,17 @@ namespace HW5
             this.display.ForeColor = System.Drawing.SystemColors.Window;
             this.display.Location = new System.Drawing.Point(15, 15);
             this.display.Name = "display";
+            this.display.ReadOnly = true;
             this.display.Size = new System.Drawing.Size(297, 32);
             this.display.TabIndex = 0;
             this.display.Text = "0.00";
             this.display.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(170, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "label3";
-            this.label3.Visible = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(171, 210);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "label4";
-            this.label4.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(170, 249);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "label5";
-            this.label5.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 447);
+            this.ClientSize = new System.Drawing.Size(336, 311);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Калькулятор";

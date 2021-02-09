@@ -16,7 +16,7 @@ namespace HW5
         //      }
 
         string btn_oper;
-        
+        bool firstReady;
         float a=0, b=0, z=0;
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,9 +32,15 @@ namespace HW5
 
         public string DisplayText(string num)
         {
+            
             if (display.Text == "0.00")
             {
                 display.Text = "";
+            }
+            if (firstReady==true)
+            {
+                display.Text = "";
+                firstReady = false;
             }
              display.Text += num;
             return num;
@@ -82,53 +88,39 @@ namespace HW5
 
         private void btn_divid_Click(object sender, EventArgs e)
         {
-            
-            label1.Visible = true;
-            a = float.Parse(display.Text, 
-                System.Globalization.CultureInfo.InvariantCulture);
-
-            // a = float.Parse(display.Text);
-            label1.Text = "первое число - " + Convert.ToString(a);
             btn_oper = "/";
-            label3.Text = btn_oper;
-            label3.Visible = true;
+            MatAction();
         }
 
         private void btn_multiply_Click(object sender, EventArgs e)
         {
-            label1.Visible = true;
-            a = float.Parse(display.Text,
-                 System.Globalization.CultureInfo.InvariantCulture);
-            label1.Text = "первое число - " + Convert.ToString(a);
             btn_oper = "*";
+            MatAction();
         }
 
         private void btn_minus_Click(object sender, EventArgs e)
         {
-            label1.Visible = true;
-            a = float.Parse(display.Text,
-             System.Globalization.CultureInfo.InvariantCulture);
-            label1.Text = "первое число - " + Convert.ToString(a);
             btn_oper = "-";
+            MatAction();
+
         }
 
         private void btn_plus_Click(object sender, EventArgs e)
         {
-            label1.Visible = true;
-            a = float.Parse(display.Text,
-             System.Globalization.CultureInfo.InvariantCulture);
-            label1.Text = "первое число - " + Convert.ToString(a);
             btn_oper = "+";
+            MatAction();
         }
 
         private void btn_equals_Click(object sender, EventArgs e)
         {
-            
-                label2.Visible = true;
 
+
+                label4.Text = "=";
+                label4.Visible = true;
                 b = float.Parse(display.Text,
                 System.Globalization.CultureInfo.InvariantCulture);
-                label2.Text = "второе число - " + Convert.ToString(b);
+                label2.Text = "второе число: " + Convert.ToString(b);
+                label2.Visible = true;
                 string c = btn_oper;
                 MatOperation(c);
            
@@ -138,12 +130,26 @@ namespace HW5
         {
             a = 0;
             b = 0;
+            z = 0;
             display.Text = "0.00";
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
         }
 
         private void btn_dot_Click(object sender, EventArgs e)
         {
             DisplayText(".");
+        }
+
+        private void btn_Del_Click(object sender, EventArgs e)
+        {
+            if (z == 0 && display.Text != "")
+            {
+                display.Text = display.Text.Remove(display.Text.Length - 1);
+            }
         }
 
         private void btn_CE_Click(object sender, EventArgs e)
@@ -158,24 +164,24 @@ namespace HW5
             {
                 case "+":
                     z = a + b;
-                    display.Text = Convert.ToString(z);
+                    MatFunction(z);
                     break;
 
                 case "-":
                     z = a - b;
-                    display.Text = Convert.ToString(z);
+                    MatFunction(z);
                     break;
 
                 case "/":
 
                     z = a / b;
-                    display.Text = Convert.ToString(z);
+                    MatFunction(z);
                     break;
 
                 case "*":
 
                     z = a * b;
-                    display.Text = Convert.ToString(z);
+                    MatFunction(z);
                     break;
 
                 default:
@@ -184,6 +190,35 @@ namespace HW5
 
                     break;
             }
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            float i = float.Parse(display.Text,
+             System.Globalization.CultureInfo.InvariantCulture);
+            i *= -1;
+            display.Text = Convert.ToString(i);
+        }
+
+        private void MatFunction(float z)
+        {
+            display.Text = Convert.ToString(z);
+            label5.Text = Convert.ToString(z);
+            label5.Visible = true;
+        }
+
+        private void MatAction()
+        {
+            firstReady = true;
+            a = float.Parse(display.Text,
+             System.Globalization.CultureInfo.InvariantCulture);
+            label1.Text = "первое число: " + Convert.ToString(a);
+            label1.Visible = true;
+            //btn_oper = "+";
+            label3.Text = btn_oper;
+            label3.Visible = true;
+
+
         }
     }
 }
