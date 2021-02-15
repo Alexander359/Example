@@ -7,6 +7,9 @@ namespace NW5_2
         static void Main(string[] args)
         {
             
+            //Smirnoff
+            //Petroff
+            //Sidoroff
         }
     }
 }
